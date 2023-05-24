@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 421
+  Top = 247
+  Width = 388
+  Height = 286
+  Caption = 'VOICE'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 152
+    Top = 192
+    Width = 76
+    Height = 33
+    Caption = 'VOICE'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 16
+    Top = 16
+    Width = 113
+    Height = 17
+    Caption = 'SATU'
+    Checked = True
+    TabOrder = 0
+    TabStop = True
+    OnClick = RadioButton1Click
+  end
+  object RadioButton2: TRadioButton
+    Left = 16
+    Top = 64
+    Width = 113
+    Height = 17
+    Caption = 'DUA'
+    TabOrder = 1
+    OnClick = RadioButton2Click
+  end
+  object RadioButton3: TRadioButton
+    Left = 16
+    Top = 104
+    Width = 113
+    Height = 17
+    Caption = 'TIGA'
+    TabOrder = 2
+    OnClick = RadioButton3Click
+  end
+  object RadioButton4: TRadioButton
+    Left = 16
+    Top = 144
+    Width = 113
+    Height = 17
+    Caption = 'EMPAT'
+    TabOrder = 3
+    OnClick = RadioButton4Click
+  end
+  object Button1: TButton
+    Left = 152
+    Top = 24
+    Width = 201
+    Height = 145
+    Caption = 'VOICE'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 456
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'TEST'
+    TabOrder = 5
+    Visible = False
+    OnClick = Button2Click
+  end
+end
